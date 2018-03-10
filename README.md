@@ -15,7 +15,7 @@ e.g. showdown.js
 <body>
   <div id="markdown">
     $hello_world
-    today is $current_time
+    it is $current_time
     1 + 1 = $add 1 1
   </div>
 </body>

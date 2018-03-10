@@ -30,7 +30,7 @@ FunctionBinder = function(allFunctions) {
                 output = fnObject[type](args);
             }
             
-            markdown = text.replace(x, output);
+            markdown = text.replace(x, output.toString());
         }
         return markdown;
     }   
